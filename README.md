@@ -59,6 +59,8 @@ Forecasts break quietly. A deal with no company attached, no amount, or a close 
 
 ## 2. Architecture
 
+![Workflow Overview](./workflow-overview.png)
+
 ```mermaid
 flowchart LR
     T1[Daily Hygiene Audit<br/>0 5 * * 1-5] --> CFG
